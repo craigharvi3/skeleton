@@ -26,8 +26,15 @@
     "react-scripts": "4.0.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "bbc-grandstand": "https://github.com/bbc/grandstand.git",
     "connected-react-router": "4.5.0",
+    "gel-typography": "https://github.com/bbc/gel-typography.git",
     "history": "4.10.1",
+    "node-sass": "4.14.1",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-redux": "5.1.2",
