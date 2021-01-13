@@ -2,5 +2,12 @@
 @import '../../node_modules/bbc-grandstand/dist/bbc-grandstand.min.css';
 @import '../../node_modules/gel-typography/dist/gel-typography.min.css';
 
+/* Utils */
+@import 'utils/variables';
+
 /* Base */
 @import 'base/reset';
+@import 'base/typography';
+
+/* Layout */
+@import 'layout/header';

@@ -8,13 +8,15 @@ import About from '../about';
 
 const App = () => (
   <>
-    <header className="gs-u-p+">
-      <Link className="gs-u-mr+ gs-o-link" to="/">
-        <FontAwesomeIcon icon={faHome} /> Home
-      </Link>
-      <Link className="gs-o-link" to="/about-us">
-        <FontAwesomeIcon icon={faInfoCircle} /> About
-      </Link>
+    <header className="header gs-u-p+ gs-u-mb+">
+      <div className="gel-wrap">
+        <Link className="header__link gs-u-mr+ gs-o-link" to="/">
+          <FontAwesomeIcon icon={faHome} /> Home
+        </Link>
+        <Link className="header__link gs-o-link" to="/about-us">
+          <FontAwesomeIcon icon={faInfoCircle} /> About
+        </Link>
+      </div>
     </header>
 
     <main>

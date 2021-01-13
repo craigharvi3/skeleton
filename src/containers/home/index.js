@@ -19,8 +19,8 @@ const Home = ({
   isDecrementing,
   changePage,
 }) => (
-  <div>
-    <h1>Home</h1>
+  <div className="gel-wrap">
+    <h1 className="gel-trafalgar gs-u-mb+">Home</h1>
     <p>Count: {count}</p>
 
     <p>
